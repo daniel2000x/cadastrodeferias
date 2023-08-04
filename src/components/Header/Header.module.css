@@ -1,0 +1,31 @@
+.header {
+    background-color: #C9DAB0; 
+    border-bottom: 2px solid #f1eded;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+
+
+.header span {
+    font-size: 2rem;
+    color: #36b71c;
+    font-weight: 500;
+    
+}
+
+.header nav {
+    margin-right: 1rem;
+}
+
+.header a {
+    text-decoration: none;
+    color: #161515;
+    padding-inline: 1rem;
+    font-size: 1.125rem; /* 18px = 1.125rem; */
+}
